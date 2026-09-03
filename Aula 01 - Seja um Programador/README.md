@@ -1,7 +1,5 @@
 # 📝 Fase 01
 
----
-
 ## Por que ser Programador ?
 
 Alguns estatisticas foram feitas atraves de uma pesquisa que a CODE.ORG fez, para procura a incentivar a criação de escolas, aulas e ensino de programação, inclusive tentando diminuindo a faixa etaria para o primeiro contato com a programação. Assim fazendo com que crianças de 5, 7 anos, tenha seu primeiro contato com a programação.
