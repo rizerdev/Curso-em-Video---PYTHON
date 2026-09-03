@@ -32,3 +32,42 @@ Com a programação, podemos desenvolver tecnologias para:
 - e diversas outras aplicações.
 
 Portanto, a programação **não se limita aos desktops**. Ela está presente em grande parte da tecnologia que utilizamos no dia a dia.
+
+
+### Vantagens de Programar
+
+- Resolver problemas mais rapido.
+- Ser mais criativo.
+- Ter uma comunidade muito ativa, ou seja não só ter muitos programas, mas ter muito mais ajuda.
+- Aprender outras coisas mais rapidos.
+- Não precisa ter pre-requisitos, como saber ingles ou matematica.
+- Não precisa ter uma idade avançada para programar, desde que sua habilidade cognitiva ainda funcione.
+- Liberdade de inclusão, ou seja, você pode ser de qualquer gênero.
+- Aprender programação ou aplicar a programação, não necessita ser de uma cidade grande, da sua casa você faz oque quiser.
+
+
+### Maiores Obstaculos
+
+- Falta de compromisso.
+- Excesso de pressa.
+- Poucos exercicícios práticado.
+- Achar que sabe de tudo.
+
+### Principais Profissionais na área da programação
+
+- Deskto
+- Web
+- Mobile
+- IoT
+- Games
+
+### Linguagem de Programação
+
+- C++
+- Java
+- PHP
+- RUBY
+- SWIFT
+- ASP
+- JS
+- PHYTON (Escolhida para aprender neste curso)
