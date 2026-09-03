@@ -1,4 +1,4 @@
-# 📝 Aula 01 - Fase 01
+# 📝 Aula 01
 
 
 ## 📚 O que foi apresentado/🧠 O que eu entendi
