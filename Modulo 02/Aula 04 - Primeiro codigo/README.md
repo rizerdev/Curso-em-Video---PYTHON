@@ -178,7 +178,7 @@ print("Olá,", nome, "prazer em conhecer você!")
 
 ## Desafio 02 — Data de nascimento
 
-Criar um programa que solicite o dia, o mês e o ano de nascimento de uma pessoa. Depois, o programa deve mostrar a data completa.
+Crie um script python que leia o dia, mês e o ano de nascimento de uma pessoa e mostre uma mensagem com a data formatada.
 
 ```python
 dia = input('Em qual dia você nasceu: ')
@@ -192,7 +192,7 @@ print('Você nasceu no dia',dia,'do mês de',mes,'de',ano + '.','Correto?')
 
 ## Desafio 03 — Soma de dois números
 
-O desafio pede dois números e tenta realizar uma soma.
+Crie um script python que leia dois números e tente mostar a soma entre eles.
 
 ```python
 n1 = input("Digite o primeiro número: ")
