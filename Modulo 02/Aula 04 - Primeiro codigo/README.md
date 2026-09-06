@@ -144,28 +144,6 @@ Esse programa solicita três informações e depois apresenta tudo o que foi dig
 
 ---
 
-## Criando e executando um arquivo no Codespaces
-
-Como estou utilizando o GitHub Codespaces, não preciso usar o IDLE apresentado na aula.
-
-Para criar um programa, basta criar um arquivo com a extensão `.py`.
-
-Exemplo:
-
-```text
-aula04.py
-```
-
-Depois de escrever o código, posso executá-lo clicando no botão `▶️` ou utilizando o terminal:
-
-```bash
-python3 aula04.py
-```
-
-Sempre que eu quiser testar novamente, basta salvar as alterações e clicar outra vez no botão de executar.
-
----
-
 ## Diferença entre `print()` e `input()`
 
 As duas funções possuem objetivos diferentes:
@@ -188,10 +166,10 @@ O `input()` pergunta o nome, enquanto o `print()` apresenta a mensagem com a res
 
 ## Desafio 01 — Mensagem de boas-vindas
 
-Criar um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas.
+Criar um script python que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas de acordo com o valor digitado.
 
 ```python
-nome = input("Qual é o seu nome? ")
+nome = input("Qual é o seu nome: ")
 
 print("Olá,", nome, "prazer em conhecer você!")
 ```
@@ -203,11 +181,11 @@ print("Olá,", nome, "prazer em conhecer você!")
 Criar um programa que solicite o dia, o mês e o ano de nascimento de uma pessoa. Depois, o programa deve mostrar a data completa.
 
 ```python
-dia = input("Em qual dia você nasceu? ")
-mes = input("Em qual mês você nasceu? ")
-ano = input("Em qual ano você nasceu? ")
+dia = input('Em qual dia você nasceu: ')
+mes = input('Em qual mês você nasceu: ')
+ano = input('Em qual ano você nasceu: ')
 
-print("Você nasceu no dia", dia, "de", mes, "de", ano + ".")
+print('Você nasceu no dia',dia,'do mês de',mes,'de',ano + '.','Correto?')
 ```
 
 ---
@@ -217,10 +195,10 @@ print("Você nasceu no dia", dia, "de", mes, "de", ano + ".")
 O desafio pede dois números e tenta realizar uma soma.
 
 ```python
-primeiro_numero = input("Digite o primeiro número: ")
-segundo_numero = input("Digite o segundo número: ")
+n1 = input("Digite o primeiro número: ")
+n2 = input("Digite o segundo número: ")
 
-print("A soma é:", primeiro_numero + segundo_numero)
+print("A soma é:", n1 + n2)
 ```
 
 Porém, existe um problema: a função `input()` recebe as informações como texto.
@@ -233,8 +211,16 @@ Se eu digitar `6` e `3`, o resultado será:
 
 Isso acontece porque o Python está juntando dois textos em vez de somar dois números.
 
-A conversão desses valores será estudada na próxima aula.
+A conversão desses valores será estudada na próxima aula, mas eu pesquisei um pouco e termos que transformar as entradas em numeros inteiros ou usar o `INT` que seria uma expecie de variavel que coloca aquela entrada como um numero.
 
+O correto ficaria assim.
+```python
+n1 = int(input('Digite o primeiro número: '))
+n2 = int(input('Digite o segundo número: '))
+
+print('A soma é', n1 + n2)
+```
+OBS: Não sei se seria isso que ele usa na proxima aula, mas foi oque eu pesquisei.
 ---
 
 ## O que aprendi nesta aula?
